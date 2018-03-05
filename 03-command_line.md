@@ -46,9 +46,10 @@ What do the following commands do:
 
 ---
 
-### Q3.  More List Files in Unix    
+### Q3.  More List Files in Unix  
 
-Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:  
+Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
+  
 `ls -1` list contents one per line (for readability)  
 `ls -d` list directories only (if many files and few directories)  
 `ls -R` list subdirectories (if file structure is complicated)  
