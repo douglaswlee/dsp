@@ -40,7 +40,7 @@ What do the following commands do:
 `ls -a` include hidden files and directories
 `ls -l` list in long format (incl. permissions, owner, group, size, modification time, and name of files) 
 `ls -lh` list in long format with human-readable file sizes (e.g., 1K, 1M)
-`ls -lah`list in long format with human-readable sizes, include hidden files and directories
+`ls -lah` list in long format with human-readable sizes, include hidden files and directories
 `ls -t` list contents by modification time (descending)
 `ls -Glp` list in long format, appending / to directories and omitting group names
 
