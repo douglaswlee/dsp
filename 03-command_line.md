@@ -36,14 +36,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
+`ls` list contents of a given directory
+`ls -a` include hidden files and directories
+`ls -l` list in long format (incl. permissions, owner, group, size, modification time, and name of files) 
+`ls -lh` list in long format with human-readable file sizes (e.g., 1K, 1M)
+`ls -lah`list in long format with human-readable sizes, include hidden files and directories
+`ls -t` list contents by modification time (descending)
+`ls -Glp` list in long format, appending / to directories and omitting group names
 
 ---
 
@@ -51,8 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+`ls -1` list contents one per line (for readability)
+`ls -d` list directories only (if many files and few directories)
+`ls -R` list subdirectories (if file structure is complicated)
+`ls -lS` list in long format by size (if you need to know largest and smallest files and their size)
+`ls -u` list by access time (to know when you last used a file/directory)
 ---
 
 ### Q4.  Xargs   
