@@ -46,7 +46,7 @@ What do the following commands do:
 
 ---
 
-### Q3.  More List Files in Unix  
+### Q3.  More List Files in Unix    
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 `ls -1` list contents one per line (for readability)  
