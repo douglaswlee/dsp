@@ -60,7 +60,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+`xargs` basically takes standard inputs and turns them into arguments for a given command for execution, so that one can run a particular command over all items in a potentially long list (such as a listing of files in a given directory). So for example something like:  
+`ls | xargs cat`   
+would output everything (from calling `cat`) from non-hidden files in the current working directory
  
 
