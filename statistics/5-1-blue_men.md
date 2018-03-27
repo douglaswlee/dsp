@@ -6,7 +6,7 @@ Import the required modules:
 import scipy.stats
 ```
 
-I then wrote a function to convert inches to centimeters and to get the probability of a value drawn from a normal distribution with a particular mean and standard deviation occurs on a given interval (documentation and improved error handling to come):
+I then wrote functions to convert inches to centimeters and to get the probability of a value drawn from a normal distribution with a particular mean and standard deviation occurs on a given interval (documentation and improved error handling to come):
 
 ```python
 def in_to_cm(inches):
