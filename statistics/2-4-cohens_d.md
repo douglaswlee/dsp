@@ -56,8 +56,8 @@ I wasn't exactly sure how the `CohenEffectSize` function in `thinkstats2` accoun
 
 ```python
 def cohens_d(g1, g2):
-    n1 = g1.size - g1.isnull().sum()
-    n2 = g2.size - g2.isnull().sum()
+    n1 = len(g1.dropna())
+    n2 = len(g2.dropna())
     if n1 == 0 or n2 == 0:
         return None
     else:
