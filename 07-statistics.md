@@ -103,7 +103,9 @@ P(B and I) / P(B) = P(B|I)P(I) / (P(B|F)P(F) + P(B|I)P(I)) = (1/2)(1/300) / ((1/
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+In frequentist statistics, one draws conclusions regarding the state of the world based on the frequency of occurrence of events from a given experiment and well-defined decision rules. This interpretation reflects the belief that probabilities of events are representative of the long-run frequency of occurrence in an infinite number of trials. This viewpoint treats probabilities as objective, parameters being evaluated as fixed, and data as a realization from an infinitely repeatable process.
+
+In Bayesian statistics, information from sources besides the data from a random experiment may be used to draw conclusions and continually update those conclusions regarding the state of the world. This viewpoint treats probabilities of events and parameters as subjective and probabilistic, and any data collected as a new source of information which may change one's perception of the state of the world. 
 
 ---
 
